@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/electron-test",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "electron-test"
+    }
+  },
+  "defaultProject": "electron-test",
+  "cli": {
+    "analytics": "ab469f07-ca5b-4e63-a371-fd10e8ab93c2"
+  }
 }

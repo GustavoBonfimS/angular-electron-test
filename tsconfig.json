@@ -6,6 +6,9 @@
 */
 {
   "files": [],
+  "compilerOptions": {
+    "target": "es5"
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"
